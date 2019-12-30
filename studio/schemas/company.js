@@ -29,12 +29,6 @@ export default {
             name: 'createdby',
             title: 'Created By',
             type: 'user',
-        },
-        {
-            name: 'positions',
-            title: 'Positions',
-            type: 'array',
-            Of: ['position']
         }
     ]
 }

@@ -1,6 +1,6 @@
 export default {
     name: 'application',
-    type: 'Document',
+    type: 'document',
     title: 'Application',
     fields: [
         {
@@ -21,12 +21,12 @@ export default {
         {
             name: 'position',
             title: 'Position',
-            type: 'Position',
+            type: 'position',
         },
         {
             name: 'followups',
             type: 'array',
-            Of: ['followup'],
+            of: [{type: 'followup'}],
             title: 'Follow Ups'
         }
     ]

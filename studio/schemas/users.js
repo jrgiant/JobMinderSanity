@@ -12,6 +12,12 @@ export default {
             name: 'created',
             title: 'Created',
             type: 'date'
+        },
+        {
+            name: 'application',
+            title: 'Applications',
+            type: 'array',
+            of: [{type:'application'}]
         }
 
     ]
