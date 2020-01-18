@@ -1,7 +1,7 @@
 export default {
     name: 'followup',
     title: 'Followups',
-    type: 'object',
+    type: 'document',
     fields: [
         // date of follow up
         {

@@ -25,8 +25,8 @@ export default {
         },
         {
             name: 'followups',
-            type: 'array',
-            of: [{type: 'followup'}],
+            type: 'reference',
+            to: [{type: 'followup'}],
             title: 'Follow Ups'
         }
     ]

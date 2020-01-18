@@ -16,7 +16,8 @@ export default {
         {
             name: 'createdby',
             title: 'Created By',
-            type: 'user',
+            type: 'reference',
+            to: [{type: 'user'}]
         },
         {
             name: 'email',

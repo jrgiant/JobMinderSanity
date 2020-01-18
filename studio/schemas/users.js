@@ -16,8 +16,8 @@ export default {
         {
             name: 'application',
             title: 'Applications',
-            type: 'array',
-            of: [{type:'application'}]
+            type: 'reference',
+            to: [{type:'application'}]
         }
 
     ]

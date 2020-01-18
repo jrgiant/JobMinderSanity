@@ -1,7 +1,7 @@
 export default {
     name: 'company',
     title: 'Company',
-    type: 'object',
+    type: 'document',
     fields: [
         {
             name: 'name',
@@ -28,7 +28,8 @@ export default {
         {
             name: 'createdby',
             title: 'Created By',
-            type: 'user',
+            type: 'reference',
+            to: [{type: 'user'}]
         }
     ]
 }
